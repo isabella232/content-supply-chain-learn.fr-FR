@@ -1,30 +1,29 @@
 ---
-title: Adobe Chaîne d’approvisionnement de contenu
-description: Adobe La chaîne d’approvisionnement de contenu est une solution de bout en bout qui accélère et simplifie votre chaîne d’approvisionnement de contenu grâce à l’IA générative et à l’automatisation intelligente.
-source-git-commit: f979dd648619ea01e8bf6f0c4355cb3b707aa239
+title: Adobe [!DNL Content Supply Chain] Tutorials
+description: Accélérez et simplifiez votre contenu grâce à l’IA générative et à l’automatisation intelligente. La chaîne d’approvisionnement d’Adobe est une solution de bout en bout qui vous permet de planifier, de créer, de diffuser et d’analyser votre contenu.
+source-git-commit: 77982009a37d9d15cbc5e93c7537bc4883789b28
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
 
 
-# Adobe des tutoriels sur la chaîne d’approvisionnement de contenu
+# Adobe [!DNL Content Supply Chain] Tutorials
 
-Les outils d’Adobe de la chaîne d’approvisionnement de contenu permettent d’accélérer l’exécution de votre entreprise en permettant à votre équipe d’optimiser la création de contenu avec l’IA dédiée, d’accroître l’agilité et la vitesse de l’équipe pour le commercialiser et d’améliorer le retour sur investissement et l’efficacité du contenu.
+Les outils d’Adobe de la chaîne d’approvisionnement de contenu permettent d’accélérer l’exécution de votre entreprise en permettant à votre équipe d’adapter la création de contenu à l’IA dédiée à Generative, d’accroître l’agilité et la vitesse de mise sur le marché de l’équipe, ainsi que d’améliorer le retour sur investissement et l’efficacité du contenu.
 
 Une chaîne d’approvisionnement de contenu rassemble des personnes, des outils et des workflows pour planifier, créer, produire, diffuser et mesurer efficacement le contenu. Les clients exigeant des expériences de meilleure qualité à un rythme de plus en plus rapide, ainsi que la complexité de plusieurs canaux et formats, les marques doivent révolutionner leur manière de penser le contenu.
 
-Découvrez comment supercharger votre processus de création et de diffusion de contenu de bout en bout avec la puissance de l’IA générative grâce à ces tutoriels.
-
+Les tutoriels suivants vous aident à surcharger votre processus de création et de diffusion de contenu de bout en bout avec la puissance de l’IA générative.
 
 * [Workflow et planification](workflow-and-planning.md) - Créez des workflows connectés qui soient transparents, rapides et efficaces.
 * [Création et production de contenu](content-creation-and-production.md) - Transformez le travail créatif à l’aide de Generative AI, automatisez les variations de contenu à grande échelle et autorisez les marketeurs à créer du contenu sur la marque.
 * [Gestion des ressources](asset-management.md) - Centralisez, gérez et gérez des millions de ressources dans l’ensemble de votre entreprise.
 * [Diffusion et activation](delivery-and-activation.md) - diffuser du contenu en toute transparence à chaque étape du parcours client.
-* *Reporting et statistiques* - Améliorez le retour sur investissement du contenu en améliorant l’utilisation et les performances du contenu.
+* *Reporting et informations* - Améliorez le retour sur investissement du contenu en améliorant l’utilisation et les performances du contenu.
 
-<!-- * [Reporting and Insights](reporting-and-insights.md) - Enhance content ROI by improving content usage and performance. -->
+<!-- * [Reporting and insights](reporting-and-insights.md) - Enhance content ROI by improving content usage and performance. -->
 
 ## Ressources supplémentaires
 
