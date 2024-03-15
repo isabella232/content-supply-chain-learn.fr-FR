@@ -9,244 +9,400 @@ role: Admin, User, Leader, Developer
 level: Beginner
 last-substantial-update: 2024-03-06T00:00:00Z
 jira: KT-15076
-source-git-commit: fecc107042220664ce5b76584f834a025844ef4b
+source-git-commit: f3082975a674a13152aa92c06302e67e9f4715b6
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 27%
+source-wordcount: '1075'
+ht-degree: 17%
 
 ---
 
 
 # Tutoriels sur la gestion des ressources
 
-Accédez facilement à des millions de ressources et réutilisez-les à partir d’une solution cloud unique tout en assurant la cohérence de la marque.
+Accédez facilement à des millions de ressources et réutilisez-les à partir d’une solution cloud unique tout en assurant la cohérence de la marque.  Ces tutoriels portent sur l’utilisation d’Adobe Experience Manager Assets.
 
-Les solutions d’Adobe utilisées pour la gestion des ressources :
-
-<table>
-    <tr style="border: 0;">
-      <td style="align: center">
-        <p style="margin: 0"><img alt="Frame.io" src="/help/assets/aem-logo.png" style="width: 42px;height:42px;"></p>
-        <strong>AEM Assets</strong>
-      </td>
-    </tr>
-</table>
 
 >[!TIP]
 >
 >Notre équipe d’experts Adobes en produits a rassemblé une collection de tutoriels d’intégration pour les cas d’utilisation clés de la chaîne d’approvisionnement en contenu. Si vous utilisez plusieurs solutions, apprenez la meilleure manière de les intégrer !  Consultez la section [Tutoriels d’intégration de la chaîne d’approvisionnement de contenu](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/solution-categories/content-supply-chain.html?lang=en).
 
 ## Cours recommandés
-
-<table style="margin-top:0 !important">
-    <tr>
-      <td style="width:33%">
-        <a href="https://experienceleague.adobe.com/docs/courses/using/experiencemanager-u-1-2023-assets-essentials.html" target="_blank">
-          <img alt="Prise en main d’AEM Assets Essentials" src="https://cdn.experienceleague.adobe.com/thumb/getting-started-with-assets-essentials.png">
-        </a>
-        <div>
-          <a href="https://experienceleague.adobe.com/docs/courses/using/experiencemanager-u-1-2023-assets-essentials.html" target="_blank">
-        <strong>Prise en main d’AEM Assets Essentials</strong></a>
-        <p class="is-size-7 recs-limit-description">Découvrez comment AEM Assets Essentials peut rationaliser la gestion des ressources pour votre entreprise.</p>
-        <p><a href="https://experienceleague.adobe.com/docs/courses/using/experiencemanager-u-1-2023-assets-essentials.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM"><span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span></a></p>
+<div class="columns is-multiline">
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[AEM Assets - Assets View] Bulk Import - Feature Video" tabIndex="0">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/bulk-import.html?lang=fr" title="[AEM Assets - Affichage des ressources] Importation en bloc - Vidéo sur les fonctionnalités" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3426857?format=jpeg" alt="[AEM Assets - Affichage des ressources] Importation en bloc - Vidéo sur les fonctionnalités">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/bulk-import.html?lang=fr" title="[AEM Assets - Affichage des ressources] Importation en bloc - Vidéo sur les fonctionnalités">[AEM Assets - Affichage des ressources] Importation en bloc - Vidéo sur les fonctionnalités</a>
+          </p>
+          <p class="is-size-6">Découvrez comment importer de nombreux fichiers dans AEM Assets à l’aide de la fonctionnalité d’importation en bloc, Dropbox servant d’exemple de fournisseur de stockage dans le cloud pour un processus d’intégration clair et facile à suivre.</p>
         </div>
-      </td>
-      <td style="width:33%">
-        <a href="https://experienceleague.adobe.com/docs/courses/using/experiencemanager-a-1-2020-1-assets.html" target="_blank">
-          <img alt="Image miniature du tutoriel &quot;Configuration d’AEM Assets pour les administrateurs&quot;" src="https://cdn.experienceleague.adobe.com/thumb/configuring-aem-assets-for-administrators.jpg">
+        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/bulk-import.html?lang=fr" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
         </a>
-        <div>
-          <a href="https://experienceleague.adobe.com/docs/courses/using/experiencemanager-a-1-2020-1-assets.html" target="_blank">
-        <strong>Configuration d’AEM Assets pour les administrateurs</strong></a>
-        <p class="is-size-7 recs-limit-description">Découvrez comment établir une base solide pour votre mise en oeuvre AEM Assets en configurant les principales préoccupations, de la configuration d’une architecture de contenu et d’une taxonomie de base à la personnalisation des métadonnées et au traitement des ressources.</p>
+      </div>
+    </div>
+  </div>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[Asset Essentials][Workfront] Assets Essentials and Workfront integration - Catalog" tabIndex="1">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/overview.html" title="[Asset Essentials][Workfront] Assets Essentials et intégration Workfront - Catalogue" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3422184?format=jpeg" alt="[Asset Essentials][Workfront] Assets Essentials et intégration Workfront - Catalogue">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/overview.html" title="[Asset Essentials][Workfront] Assets Essentials et intégration Workfront - Catalogue">[Asset Essentials][Workfront] Assets Essentials et intégration Workfront - Catalogue</a>
+          </p>
+          <p class="is-size-6">Découvrez comment intégrer Workfront et les Assets Essentials.</p>
         </div>
-        <p><a href="https://experienceleague.adobe.com/docs/courses/using/experiencemanager-a-1-2020-1-assets.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM"><span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span></a></p>
-      </td>
-    </tr>
-</table>
-
-## Tutoriels
-
-<div class="columns is-multiline"><div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Integrate Adobe Workfront and AEM Assets Essentials" tabIndex="0">
-  <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-    <div class="card-image">
-      <figure class="image x-is-16by9">
-        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/overview.html" title="Intégrer Adobe Workfront et AEM Assets Essentials" tabindex="-1">
-          <img class="is-bordered-r-small" src="https://cdn.experienceleague.adobe.com/thumb/docs-workfront.png" alt="Intégrer Adobe Workfront et AEM Assets Essentials">
+        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/overview.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
         </a>
-      </figure>
-    </div>
-    <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-      <div class="top-card-content">
-          <p class="headline is-size-6 has-text-weight-bold">
-              <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/overview.html" title="Intégrer Adobe Workfront et AEM Assets Essentials">Intégration d’Adobe Workfront et d’AEM Assets Essentials</a>
-          </p>
-          <p class="is-size-6"><em>Découvrez comment intégrer Workfront et AEM Assets Essentials pour rationaliser la gestion des workflows créatifs.</em></p>
       </div>
-      <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/overview.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-        <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-      </a>
     </div>
   </div>
-</div><div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Use Adobe Workfront plugins to integrate with Creative Cloud" tabIndex="1">
-  <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-    <div class="card-image">
-      <figure class="image x-is-16by9">
-        <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/wf-adobe-cc.html" title="Utiliser les plug-in d’Adobe Workfront pour l’intégration à Creative Cloud" tabindex="-1">
-          <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3415452?format=jpeg" alt="Utiliser les plug-in d’Adobe Workfront pour l’intégration à Creative Cloud">
-        </a>
-      </figure>
-    </div>
-    <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-      <div class="top-card-content">
-          <p class="headline is-size-6 has-text-weight-bold">
-              <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/wf-adobe-cc.html" title="Utiliser les plug-in d’Adobe Workfront pour l’intégration à Creative Cloud">Utilisation des modules externes Adobe Workfront pour l’intégration à Creative Cloud</a>
-          </p>
-          <p class="is-size-6"><em>Intégrez Workfront à Creative Cloud pour rechercher et mettre à jour le travail qui vous est assigné sans quitter Adobe Creative Cloud.</em></p>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[AEM Assets] Adobe Express integration - Feature Video" tabIndex="2">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/adobe-express-aem-assets-add-on.html" title="[AEM Assets] Intégration de l’Adobe Express - Vidéo sur les fonctionnalités" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3425193?format=jpeg" alt="[AEM Assets] Intégration de l’Adobe Express - Vidéo sur les fonctionnalités">
+          </a>
+        </figure>
       </div>
-      <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/wf-adobe-cc.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-        <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Regarder la vidéo</span>
-      </a>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/adobe-express-aem-assets-add-on.html" title="[AEM Assets] Intégration de l’Adobe Express - Vidéo sur les fonctionnalités">[AEM Assets] Intégration de l’Adobe Express - Vidéo sur les fonctionnalités</a>
+          </p>
+          <p class="is-size-6">Découvrez comment optimiser les chaînes d’approvisionnement de contenu grâce à AEM Assets et Adobe Express et améliorez la productivité et l’accessibilité pour toutes les personnes membres de l’équipe.</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/adobe-express-aem-assets-add-on.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+        </a>
+      </div>
     </div>
   </div>
-</div><div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Configure Adobe Workfront and AEM Assets Essentials" tabIndex="2">
-  <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-    <div class="card-image">
-      <figure class="image x-is-16by9">
-        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/configure.html?lang=fr" title="Configuration d’Adobe Workfront et d’AEM Assets Essentials" tabindex="-1">
-          <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/336254?format=jpeg" alt="Configuration d’Adobe Workfront et d’AEM Assets Essentials">
-        </a>
-      </figure>
-    </div>
-    <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-      <div class="top-card-content">
-          <p class="headline is-size-6 has-text-weight-bold">
-              <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/configure.html?lang=fr" title="Configuration d’Adobe Workfront et d’AEM Assets Essentials">Configuration d’Adobe Workfront et d’AEM Assets Essentials</a>
-          </p>
-          <p class="is-size-6"><em>Découvrez comment configurer l’intégration Adobe Workfront et Assets Essentials</em></p>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[Adobe Express] Empower marketing teams to create multi-channel content - Feature video" tabIndex="3">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/expressoverview/expressusecase/multi-channel-marketing-content.html" title="[Adobe Express] Donnez aux équipes marketing les moyens de créer du contenu multicanal - Vidéo sur les fonctionnalités" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3424446?format=jpeg" alt="[Adobe Express] Donnez aux équipes marketing les moyens de créer du contenu multicanal - Vidéo sur les fonctionnalités">
+          </a>
+        </figure>
       </div>
-      <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/configure.html?lang=fr" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-        <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Regarder la vidéo</span>
-      </a>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/expressoverview/expressusecase/multi-channel-marketing-content.html" title="[Adobe Express] Donnez aux équipes marketing les moyens de créer du contenu multicanal - Vidéo sur les fonctionnalités">[Adobe Express] Donnez aux équipes marketing les moyens de créer du contenu multicanal - Vidéo sur les fonctionnalités</a>
+          </p>
+          <p class="is-size-6">Découvrez comment les équipes de marketing d’événements peuvent créer du contenu unique afin d’attirer les visiteurs pour les événements en ligne. Dans ce workflow, un spécialiste du marketing B2B lance un nouveau projet dans Adobe Express à l’aide d’un modèle issu de leur kit de marque et de leurs bibliothèques. Le marketeur B2B crée des variations pour différents canaux sociaux et web et partage le contenu sur les médias sociaux et les plateformes d’hébergement vidéo.</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/expressoverview/expressusecase/multi-channel-marketing-content.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+        </a>
+      </div>
     </div>
   </div>
-</div><div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Workfront enhanced connector basics" tabIndex="3">
-  <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-    <div class="card-image">
-      <figure class="image x-is-16by9">
-        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/basics.html?lang=fr" title="Principes de base du connecteur amélioré Workfront" tabindex="-1">
-          <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/337575?format=jpeg" alt="Principes de base du connecteur amélioré Workfront">
-        </a>
-      </figure>
-    </div>
-    <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-      <div class="top-card-content">
-          <p class="headline is-size-6 has-text-weight-bold">
-              <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/basics.html?lang=fr" title="Principes de base du connecteur amélioré Workfront">Notions de base sur les connecteurs améliorés Workfront</a>
-          </p>
-          <p class="is-size-6"><em>Découvrez les principes de base du connecteur amélioré Adobe Workfront et Experience Manager Assets.</em></p>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[AEM Assets] Workfront Enhanced Integration Basics - Feature Video" tabIndex="4">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/basics.html?lang=fr" title="[AEM Assets] Bases de l’intégration améliorée Workfront - Vidéo sur les fonctionnalités" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/337575?format=jpeg" alt="[AEM Assets] Bases de l’intégration améliorée Workfront - Vidéo sur les fonctionnalités">
+          </a>
+        </figure>
       </div>
-      <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/basics.html?lang=fr" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-        <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Regarder la vidéo</span>
-      </a>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/basics.html?lang=fr" title="[AEM Assets] Bases de l’intégration améliorée Workfront - Vidéo sur les fonctionnalités">[AEM Assets] Bases de l’intégration améliorée Workfront - Vidéo sur les fonctionnalités</a>
+          </p>
+          <p class="is-size-6">Découvrez les principes de base de l’intégration améliorée d’Adobe Workfront et de Experience Manager Assets, notamment la manière de lier des ressources et des dossiers, de définir des mappages de métadonnées, d’envoyer des ressources à l’AEM, de mettre en version des ressources et de publier automatiquement des ressources.</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/basics.html?lang=fr" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+        </a>
+      </div>
     </div>
   </div>
-</div><div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Integrate Workfront and AEM Assets with the enhanced connector" tabIndex="4">
-  <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-    <div class="card-image">
-      <figure class="image x-is-16by9">
-        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview.html" title="Intégrer Workfront et AEM Assets avec le connecteur amélioré" tabindex="-1">
-          <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/340331?format=jpeg" alt="Intégrer Workfront et AEM Assets avec le connecteur amélioré">
-        </a>
-      </figure>
-    </div>
-    <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-      <div class="top-card-content">
-          <p class="headline is-size-6 has-text-weight-bold">
-              <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview.html" title="Intégrer Workfront et AEM Assets avec le connecteur amélioré">Intégration de Workfront et d’AEM Assets au connecteur amélioré</a>
-          </p>
-          <p class="is-size-6"><em>Série de vidéos en quatre parties sur l’intégration de Workfront et AEM Assets à l’aide du connecteur amélioré.</em></p>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[AEM Assets] AEM and Adobe Asset Link Creative Workflow - Value Video" tabIndex="5">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/adobe-asset-link.html" title="[AEM Assets] Processus créatif d’AEM et d’Adobe de lien de ressource - Vidéo de valeur" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/335927?format=jpeg" alt="[AEM Assets] Processus créatif d’AEM et d’Adobe de lien de ressource - Vidéo de valeur">
+          </a>
+        </figure>
       </div>
-      <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-        <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Regarder la vidéo</span>
-      </a>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/adobe-asset-link.html" title="[AEM Assets] Processus créatif d’AEM et d’Adobe de lien de ressource - Vidéo de valeur">[AEM Assets] Processus créatif d’AEM et d’Adobe de lien de ressource - Vidéo de valeur</a>
+          </p>
+          <p class="is-size-6">Vidéo montrant un workflow créatif d’un utilisateur utilisant AAL et AAM</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/adobe-asset-link.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+        </a>
+      </div>
     </div>
   </div>
-</div></div>
-
-<!--
-<table class="tablelayout-is-fixed">
-<tr>
-  <td>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/overview.html">
-      <img alt="Integrate Adobe Workfront and AEM Assets Essentials" src="https://cdn.experienceleague.adobe.com/thumb/docs-workfront.png">
-    </a>
-    <div>
-      <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/overview.html">
-    <strong>Integrate Adobe Workfront and AEM Assets Essentials</strong>
-    </a>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[AJO] Create content with the Email Designer - Feature Video" tabIndex="6">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/create-content-with-the-email-designer.html" title="[AJO] Création de contenu avec le Concepteur d’email - Vidéo sur les fonctionnalités" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/334150?format=jpeg" alt="[AJO] Création de contenu avec le Concepteur d’email - Vidéo sur les fonctionnalités">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/create-content-with-the-email-designer.html" title="[AJO] Création de contenu avec le Concepteur d’email - Vidéo sur les fonctionnalités">[AJO] Création de contenu avec le Concepteur d’email - Vidéo sur les fonctionnalités</a>
+          </p>
+          <p class="is-size-6">Découvrez comment créer des e-mails en partant de zéro. Découvrez comment utiliser des ressources de la bibliothèque AEM Assets Essentials, modifier la conception d’e-mails réactifs et créer des e-mails à partir de modèles.</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/create-content-with-the-email-designer.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+        </a>
+      </div>
     </div>
-    <p>
-    <em>Learn how to integrate Workfront and AEM Assets Essentials to streamline the management of creative workflows.</em>
-    </p><p>
-  </p></td>
-  <td>
-    <a href="https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud.html">
-      <img alt="Use Adobe Workfront plugins to integrate with Creative Cloud" src="https://video.tv.adobe.com/v/3415452?format=jpeg">
-    </a>
-    <div>
-      <a href="https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud.html">
-    <strong>Use Adobe Workfront plugins to integrate with Creative Cloud</strong>
-    </a>
+  </div>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[Asset Essentials] Getting started with Assets Essentials - Feature Video" tabIndex="7">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/getting-started.html?lang=fr" title="[Notions fondamentales sur les ressources] Prise en main des Assets Essentials - Vidéo sur les fonctionnalités" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/336005?format=jpeg" alt="[Notions fondamentales sur les ressources] Prise en main des Assets Essentials - Vidéo sur les fonctionnalités">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/getting-started.html?lang=fr" title="[Notions fondamentales sur les ressources] Prise en main des Assets Essentials - Vidéo sur les fonctionnalités">[Notions fondamentales sur les ressources] Prise en main des Assets Essentials - Vidéo sur les fonctionnalités</a>
+          </p>
+          <p class="is-size-6">Découvrez comment Assets Essentials offre une interface utilisateur intuitive et conviviale, facilitant la recherche et la mémorisation des ressources et des informations connexes.</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/getting-started.html?lang=fr" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+        </a>
+      </div>
     </div>
-    <p>
-    <em>Integrate Workfront with Creative Cloud to find and update the work assigned to you without leaving Adobe Creative Cloud.</em>
-    </p><p>
-  </p></td>
-  <td>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/configure.html">
-    <img alt="Configure Adobe Workfront and AEM Assets Essentials" src="https://video.tv.adobe.com/v/336254?format=jpeg">
-    </a>
-    <div>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/configure.html">
-    <strong>Configure Adobe Workfront and AEM Assets Essentials</strong>
-    </a>
+  </div>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[AEM Assets] Content Automation - Value video" tabIndex="8">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/content-automation/overview.html" title="[AEM Assets] Automatisation du contenu - Vidéo Valeur" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/333197?format=jpeg" alt="[AEM Assets] Automatisation du contenu - Vidéo Valeur">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/content-automation/overview.html" title="[AEM Assets] Automatisation du contenu - Vidéo Valeur">[AEM Assets] Automatisation du contenu - Vidéo Valeur</a>
+          </p>
+          <p class="is-size-6">Une présentation de l’application des fonctionnalités de Photoshop et de Lightroom avec l’automatisation de contenu d’Adobe Experience Manager Assets.</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/content-automation/overview.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+        </a>
+      </div>
     </div>
-    <p>
-    <em>Learn how to configure the Adobe Workfront and Assets Essentials integration</em>
-    </p>
-  </td>
-  </tr>
-  <tr>
-  <td>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/basics.html">
-      <img alt="Workfront enhanced connector basics" src="https://video.tv.adobe.com/v/337575?format=jpeg">
-    </a>
-     <div>
-      <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/basics.html">
-        <strong>Workfront enhanced connector basics</strong>
-      </a>
+  </div>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[Assets] Metadata profiles - Feature Video" tabIndex="9">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/configuring/metadata-profiles" title="[Ressources] Profils de métadonnées - Vidéo sur les fonctionnalités" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/33974?format=jpeg" alt="[Ressources] Profils de métadonnées - Vidéo sur les fonctionnalités">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/configuring/metadata-profiles" title="[Ressources] Profils de métadonnées - Vidéo sur les fonctionnalités">[Ressources] Profils de métadonnées - Vidéo sur les fonctionnalités</a>
+          </p>
+          <p class="is-size-6">Les profils de métadonnées permettent l’application automatique des métadonnées par défaut aux ressources dans les dossiers de ressources, ce qui permet de réduire la charge de la gestion des métadonnées pour les utilisateurs et utilisatrices d’AEM ainsi que d’accroître la cohérence des métadonnées.</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/configuring/metadata-profiles" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+        </a>
+      </div>
     </div>
-    <p>
-    <em>Learn about the basics of the Adobe Workfront and Experience Manager Assets enhanced connector.</em>
-    </p>
-  </td>
-  <td>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview.html">
-      <img alt="Integrate Workfront and AEM Assets with the enhanced connector" src="https://video.tv.adobe.com/v/340331?format=jpeg">
-    </a>
-    <div>
-      <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview.html">
-    <strong>Integrate Workfront and AEM Assets with the enhanced connector</strong>
-    </a>
+  </div>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[Assets] Navigation - Feature Video" tabIndex="10">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/authoring/navigation.html" title="[Ressources] Navigation - Vidéo sur les fonctionnalités" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/32046?format=jpeg" alt="[Ressources] Navigation - Vidéo sur les fonctionnalités">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/authoring/navigation.html" title="[Ressources] Navigation - Vidéo sur les fonctionnalités">[Ressources] Navigation - Vidéo sur les fonctionnalités</a>
+          </p>
+          <p class="is-size-6">Explorez les principes de base de la navigation dans AEM Assets.</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/authoring/navigation.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+        </a>
+      </div>
     </div>
-    <p>
-    <em>Four part videos series on integrating Workfront and AEM Assets using the enhanced connector.</em>
-    </p><p>
-  </p></td>  
-</tr>
-</table>
--->
+  </div>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[Assets] Comments and Annotations - Feature Video" tabIndex="11">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/collaboration/comments-and-annotations.html" title="[Ressources] Commentaires et annotations - Vidéo sur les fonctionnalités" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/32049?format=jpeg" alt="[Ressources] Commentaires et annotations - Vidéo sur les fonctionnalités">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/collaboration/comments-and-annotations.html" title="[Ressources] Commentaires et annotations - Vidéo sur les fonctionnalités">[Ressources] Commentaires et annotations - Vidéo sur les fonctionnalités</a>
+          </p>
+          <p class="is-size-6">Découvrez comment utiliser les commentaires et les annotations dans AEM pour communiquer et collaborer sur des ressources.</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/collaboration/comments-and-annotations.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[Assets] Search - Feature Video" tabIndex="12">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/assets/search-and-discovery/search.html" title="[Ressources] Recherche - Vidéo sur les fonctionnalités" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/32054?format=jpeg" alt="[Ressources] Recherche - Vidéo sur les fonctionnalités">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/assets/search-and-discovery/search.html" title="[Ressources] Recherche - Vidéo sur les fonctionnalités">[Ressources] Recherche - Vidéo sur les fonctionnalités</a>
+          </p>
+          <p class="is-size-6">Découvrez comment utiliser Omnisearch d’AEM pour trouver vos ressources en un clin d’œil.</p>
+        </div>
+        <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/assets/search-and-discovery/search.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[Assets] Download - Feature Video" tabIndex="13">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/sharing/download.html" title="[Ressources] Téléchargement - Vidéo sur les fonctionnalités" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/35090?format=jpeg" alt="[Ressources] Téléchargement - Vidéo sur les fonctionnalités">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/sharing/download.html" title="[Ressources] Téléchargement - Vidéo sur les fonctionnalités">[Ressources] Téléchargement - Vidéo sur les fonctionnalités</a>
+          </p>
+          <p class="is-size-6">Découvrez comment télécharger des ressources et leurs rendus sur votre ordinateur local en vue de leur utilisation et partage.</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/sharing/download.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[Assets] AEM Desktop App 2.0 - Feature Video" tabIndex="14">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html?lang=fr" title="[Ressources] AEM Application de bureau 2.0 - Vidéo sur les fonctionnalités" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/28868?format=jpeg" alt="[Ressources] AEM Application de bureau 2.0 - Vidéo sur les fonctionnalités">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html?lang=fr" title="[Ressources] AEM Application de bureau 2.0 - Vidéo sur les fonctionnalités">[Ressources] AEM Application de bureau 2.0 - Vidéo sur les fonctionnalités</a>
+          </p>
+          <p class="is-size-6">Utilisez l’application de bureau AEM pour simplifier l’accès à toute ressource gérée dans AEM sur le bureau, quel que soit le format d’application ou de fichier.</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html?lang=fr" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[Assets] DM Smart Image Crop - Feature Video " tabIndex="15">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html?lang=fr" title="[Ressources] Recadrage d’image dynamique DM - Vidéo sur les fonctionnalités " tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/21519?format=jpeg" alt="[Ressources] Recadrage d’image dynamique DM - Vidéo sur les fonctionnalités ">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html?lang=fr" title="[Ressources] Recadrage d’image dynamique DM - Vidéo sur les fonctionnalités ">[Ressources] Recadrage d’image dynamique DM - Vidéo sur les fonctionnalités </a>
+          </p>
+          <p class="is-size-6">Le recadrage intelligent tire parti d’Adobe Sensei pour éliminer les tâches fastidieuses et coûteuses de recadrage de contenu pour la conception réactive.</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html?lang=fr" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[Assets] Asset Source File Translation - Feature Video" tabIndex="16">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/translation/source-file-translation-feature-video-use" title="[Ressources] Traduction de fichiers source de ressources - Vidéo sur les fonctionnalités" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/18331?format=jpeg" alt="[Ressources] Traduction de fichiers source de ressources - Vidéo sur les fonctionnalités">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/translation/source-file-translation-feature-video-use" title="[Ressources] Traduction de fichiers source de ressources - Vidéo sur les fonctionnalités">[Ressources] Traduction de fichiers source de ressources - Vidéo sur les fonctionnalités</a>
+          </p>
+          <p class="is-size-6">Adobe Experience Manager (AEM) Assets vous permet d’identifier les ressources qui partagent des attributs communs et de les marquer comme liées à l’aide de la nouvelle fonctionnalité Ressources liées .</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/translation/source-file-translation-feature-video-use" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 
 ## Ressources supplémentaires
 
