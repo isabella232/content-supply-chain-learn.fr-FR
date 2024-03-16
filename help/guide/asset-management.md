@@ -9,7 +9,7 @@ role: Admin, User, Leader, Developer
 level: Beginner
 last-substantial-update: 2024-03-06T00:00:00Z
 jira: KT-15076
-source-git-commit: f3082975a674a13152aa92c06302e67e9f4715b6
+source-git-commit: 588f3d016786a02658c3131945e5a23a47195130
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 17%
@@ -27,6 +27,7 @@ Accédez facilement à des millions de ressources et réutilisez-les à partir d
 >Notre équipe d’experts Adobes en produits a rassemblé une collection de tutoriels d’intégration pour les cas d’utilisation clés de la chaîne d’approvisionnement en contenu. Si vous utilisez plusieurs solutions, apprenez la meilleure manière de les intégrer !  Consultez la section [Tutoriels d’intégration de la chaîne d’approvisionnement de contenu](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/solution-categories/content-supply-chain.html?lang=en).
 
 ## Cours recommandés
+
 <div class="columns is-multiline">
   <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[AEM Assets - Assets View] Bulk Import - Feature Video" tabIndex="0">
     <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
